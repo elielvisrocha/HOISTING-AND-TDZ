@@ -48,3 +48,59 @@
 // HOISTING
 
 
+// console.log(me);
+// console.log(job);
+// console.log(year);
+
+// var me = 'Eliélvis';
+// let job = 'developer';
+// const year = 2003;
+
+
+
+// FUNCTIONS
+
+// const show = function (message) {
+//     return console.log(message);
+// }
+
+// show(addDecl(10, 10));
+
+// show(addExpre(20, 20));
+
+// show(addArrow(30, 30));
+
+// function addDecl(a, b) {
+//     return a + b;
+// }
+
+// const addExpre = function (a, b) {
+//     return a + b;
+// }
+
+// var addArrow = (a, b) => a + b;
+
+
+// EXAMPLES
+
+
+console.log(numProducts);
+
+if (!numProducts) deleteShoppingCart();
+
+var numProducts = 10;
+
+function deleteShoppingCart() {
+    console.log('All products deleted');
+}
+
+
+
+var x = 2;
+let y = 4;
+const z = 10;
+
+
+console.log(x === window.x);
+console.log(y === window.y);
+console.log(z === window.z);
